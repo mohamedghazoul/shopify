@@ -1,0 +1,643 @@
+.section-4 {
+    height: 100vh;
+    background-color:rgb(255, 215, 163) ;
+    padding-top: 50px;
+}
+.sec-4-all {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+.section-4 .hr {
+    background-color: #f567a0;
+    width: 80px;
+    height: 4px;
+    margin: auto;
+    margin-top: 3px;
+    margin-top: 5px;
+}
+.section-4 h2 {
+    font-size: 35px;
+}
+.section-4 h2 span {
+    color: #f567a0;
+    font-size: 40px;
+}
+.section-4 .contenar-1 {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 270px;
+    margin-top: 50px;
+}
+.section-4 .contenar {
+    width: 90%;
+    margin: auto;
+}
+.section-4 .card-4 {
+    width: 31%;
+    height: 30vh;
+    float: left;
+    border: #000 solid 3px; 
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+    background: none;
+    transition: .7s;
+}
+.section-4 .card-4 .icon-4 {
+    text-align: left;
+    width:30px;
+    height: 100%;
+    float: left;
+}
+.section-4 .card-4 .h2-p-4 {
+    width: 70%;
+    text-align: left;
+    margin-left: 70px;
+    color: gray;
+}
+.section-4 .card-4 .icon-4 i {
+    font-size: 30px;
+    color: #f567a0;
+    margin-right: 30px;
+}
+.section-4 .card-4 .h2-p-4 h2 {
+    font-size: 27px;
+    height: 8vh;
+    width: 100%;
+    transition: .7s;
+    color:  #000;
+}
+.section-4 .card-4 .h2-p-4 p {
+    margin-top: 10px;
+    color: gray;
+    transition: .7s;
+}
+.section-4 .card-4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: #000;
+    opacity: 0;
+    transition: .7s;
+    border-radius: 6px;
+    z-index: -1;
+}
+.section-4 .card-4:hover::before {
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+.section-4 .card-4:hover h2 {
+    color: oldlace;
+}
+.section-4 .card-4:hover p {
+    color: rgb(206, 197, 182);
+}
+.section-4 .card-4:hover {
+    color: rgb(206, 197, 182) ;
+}
+.section-4 .card-4 a {
+    text-decoration: none;
+    color: #f567a0;
+}
+.section-4 .card-4 label {
+    color: gray;
+    transition: .7s;
+}
+.section-4 .card-4:hover label {
+    color: rgb(206, 197, 182);
+}
+.section-5 {
+    height: 110vh;
+    background-color: rgb(250, 227, 197);
+    position: relative;
+    overflow: hidden;
+}
+.section-5 .contenar {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    overflow: auto;
+    height: 75vh;
+    background-color: rgb(255, 215, 163);
+    padding: 5vh 5%;
+    border-radius: 10px;
+}
+.section-5 .contenar .div-right img {
+    width: 100%;
+    height: 90%;
+    border-radius: 8px;
+    margin: auto;
+}
+.section-5 .contenar .div-right {
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+.section-5 .contenar .div-left {
+    float: left;
+    width: 50%;
+}
+.section-5 .contenar .div-left .div-icon {
+    width: 100%;
+}
+.section-5 .contenar .div-left .div-icon i   {
+    float: left;
+    color: #f567a0;
+}
+
+.section-5 .contenar .div-left .div-icon i , .section-5 .contenar .div-left .div-icon p {
+    line-height: 3;
+}
+.section-5 .contenar .div-left h2 {
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.section-5 .contenar .div-left span {
+    color: #f567a0;
+    font-size: 35px;
+}
+.section-5 .contenar .div-left h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 80px;
+    height: 3px;
+    background-color: #f567a0;
+    margin-top: 5px;
+}
+.section-5 .contenar .div-left h2 + p {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.section-5 .contenar p {
+    color: gray;
+}
+.section-5 .contenar .div-right .rudios {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: gray;
+    float: left;
+    transition: .3s;
+}
+.section-5 .contenar .div-right .s1 {
+    background-color: #f567a0;
+}
+.section-5 .contenar .div-right .s2:hover , .section-5 .contenar .div-right .s3:hover  {
+    background-color: #f567a0;
+}
+.section-5 .contenar .div-right .div-ru {
+    width: 70px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 5px;
+}
+.section-6 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(../images/ladies-white-casual-clothes-arranged-hangers-red-knitted-warm-sweater-stands-out-whole-collection-dressing-set-hanging-against-pink-background-home-wardrobe-classic-style-fashion-shop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section-6 .contenar {
+    background-color: rgba(0, 0, 0,0.6);
+    height: 100%;
+    width: 100%;
+    padding: 10% 0 0 200px;
+}
+.section-6 .contenar .div-i {
+    float: left;
+    text-align: center;
+    margin-left: 100px;
+    color: oldlace;
+    font-size: 20px;
+}
+.section-6 .contenar .div-i i {
+    font-size: 40px;
+    color: #f567a0;
+    margin-bottom: 10px;
+}
+.section-7 {
+    height: 100vh;
+    background-color: rgb(250, 227, 197);
+    text-align: center;
+    padding-top: 50px;
+}
+.section-7 h2 {
+    font-size: 30px;
+}
+.section-7 .hr {
+    width: 80px;
+    height: 4px;
+    background-color: #f567a0;
+    margin: auto;
+    margin-top: 10px;
+}
+.section-7 .contenar {
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+.section-7 .contenar .card {
+    float: left;
+    border: gray 3px solid;
+    width: 30%;
+    height: 48vh;
+    padding: 20px 5 5 5 ;
+    border-radius: 4px;
+    position: relative;
+    z-index: 3;
+    transition: 1.5s;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.section-7 .contenar .card-2 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.section-7 .contenar .card h5 {
+    text-transform: uppercase;
+    color: gray;
+    transition: .7s;
+    font-weight: bold;
+}
+.section-7 .contenar .card  .rudi {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: auto;
+    border: 2px solid gray;
+    padding-top: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom:20px ;
+    transition: 1s;
+}
+.section-7 .contenar .card p {
+    margin-bottom: 13px;
+    color: gray;
+    transition: 1s;
+}
+.section-7 .contenar .card button {
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    background: none;
+    border: solid 2px black;
+    border-radius: 4px;
+    transition: 1.5s;
+    font-weight: bold;
+}
+.section-7 .contenar .card::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    background-color: rgba(0, 0, 0,0.6);
+    opacity: 0;
+    z-index: -1;
+    transition: 1.5s;
+    border-radius: 2px;
+    border-top-left-radius: 27px;
+    border-bottom-right-radius: 27px;
+}
+.section-7 .contenar .card:hover::after {
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+}
+.section-7 .contenar .card:hover {
+    z-index: 5;
+    border: #f567a0 3px solid;
+}
+.section-7 .contenar .card:hover .btt7 {
+    border:  2px solid #f567a0;
+    transition: 1.5s;
+    color: #f567a0;
+}
+.section-7 .contenar .card:hover .h5 {
+    color: #f567a0;
+}
+.section-7 .contenar .card:hover .rudi {
+    color: oldlace;
+    border: 2px solid #f567a0;
+}
+.section-7 .contenar .card:hover p {
+    color: oldlace;
+}
+.section-8 {
+    height: 50vh;
+    width: 100%;
+    background-image: url(../images/tp195-389-393-audi-facebookad-01.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+}
+.section-8 .contenar {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.7);
+    padding: 20vh 10% 0;
+}
+.section-8 .contenar .div-left {
+    float: left;
+}
+.section-8 .contenar .div-right {
+    float: right;
+}
+.section-8 .contenar img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.section-8 .contenar h3 {
+    color: oldlace;
+    margin-top: 5px;
+}
+.section-8 .contenar span {
+    color: #f567a0;
+}
+.section-8 .contenar p {
+    color: oldlace;
+    margin-top: 30px;
+}
+.section-9 {
+    width: 100%;
+    height: 95vh;
+    background-color:  rgba(255, 211, 155);
+    text-align: center;
+    padding-top: 90px;
+}
+.section-9 h2 {
+    font-size: 40px;
+}
+.section-9 .hr {
+    width: 70px;
+    height: 5px;
+    background-color: #f567a0;
+    margin: auto;
+    margin-top: 5px;
+}
+.section-9 .contenar {
+    width: 95%;
+    height: 89%;
+    padding: 50px 0 0 100px ;
+    margin: auto;
+}
+.section-9 .contenar .div-1 {
+    width: 27%;
+    height: 90%;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0,0.5);
+    position: relative;
+    border-radius: 4px;
+    float: left;
+}
+.div222 {
+    margin: 0 50px;
+}
+.section-9 .contenar .div-1 .div-up {
+    background-image: url(../images/stylish-red-haired-woman-playing-with-hairs-posing-pink-lien-dress-with-sleeves-pink.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 85%;
+    margin: auto;
+    opacity: 0.8;
+    text-align: right;
+    border-radius: 4px;
+    z-index: -1;
+}
+.section-9 .contenar .div-1 .div-up i {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: #f567a0;
+    visibility: hidden;
+    z-index: 9;
+}
+.section-9 .contenar .div-1 .div-up a {
+    text-decoration: none;
+}
+.section-9 .contenar .div-1 .div-bottom {
+    margin-top: 3px;
+}
+.section-9 .contenar .div-1::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: rgba(0, 0, 0,0.23);
+    opacity: 0;
+    transition: 2s;
+    border-radius: 3px;
+}
+.section-9 .contenar .div-1:hover::after {
+    height: 100%;
+    width: 50%;
+    opacity: 1;
+}
+.section-9 .contenar .div-1::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0,0.23);
+    transition: 2s;
+    border-radius: 3px;
+    z-index: 8;
+}
+.section-9 .contenar .div-1:hover::before {
+    width: 50%;
+    height: 100%;
+    opacity: 1;
+}
+.h4h {
+    transition: 1.3s;
+    font-size: 23px;
+    color: black;
+}
+.section-9 .contenar .div-1:hover .h4h {
+    color: oldlace;
+    font-size: 25px;
+}
+.ii1 {
+    transition-delay: 1s;
+}
+.ii2 {
+    transition-delay: .5s;
+}
+.ii3 {
+    transition: .1s;
+}
+.section-9 .contenar .div-1:hover .iii {
+    opacity: 1;
+    visibility: visible;
+}
+.section-9 .contenar .div-1:hover .ii1 {
+    transition-delay:.5s ;
+}
+.section-9 .contenar .div-1:hover .ii2 {
+    transition-delay: 1s;
+}
+.section-9 .contenar .div-1:hover .ii3 {
+    transition-delay: 1.5s;
+}
+.p-9 {
+    transition: 1s;
+}
+
+.section-10 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(250, 227, 197);
+    text-align: center;
+    padding-top: 70px;
+}
+.section-10 h2 {
+    font-size: 30px;
+}
+.section-10 .hr {
+    width: 90px;
+    height: 4px;
+    margin: auto;
+    margin-top: 7px;
+    background-color: #f567a0;
+}
+.section-10 .contenar {
+    margin: auto;
+    width: 80%;
+    margin-top: 10vh;
+    overflow: auto;
+}
+.section-10 .contenar .card {
+    width: 25vw;
+    height: 72vh;
+    float: left;
+    position: relative;
+    padding-top: 10px;
+    border: solid 3px #999999;
+    border-radius: 12px;
+}
+.section-10 .contenar .card-2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.section-10 .contenar .card .card-top {
+    width: 20vw;
+    height: 20vh;
+    overflow: auto;
+}
+.s10 i {
+    /* float: left; */
+    font-size: 11px;
+    color: #f567a0;
+}
+.s10 span {
+    /* float: left; */
+    /* display: inline; */
+    color: #000;
+    font-size: 11px;
+    margin-right: 10px;
+}
+.s10 h3 {
+    margin-top: 10px;
+} 
+.s10 p {
+    margin-bottom: 20px;
+}
+.s10 a {
+    color: #f567a0;
+    text-decoration: none;
+}
+.img-123 {
+    width: 20vw;
+    height: 45vh;
+    border-radius: 5px;
+    /* margin-bottom: 10px; */
+}
+.section-10 .contenar .card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: #333;
+    transition: 1s;
+    opacity: 0.3;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    width: 50%;
+}
+.section-10 .contenar .card:hover::after {
+    width: 0;
+}
+.section-10 .contenar .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #333;
+    transition: 1s;
+    opacity: 0.3;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    width: 50%;
+}
+.section-10 .contenar .card:hover::before {
+    width: 0;
+}
+.section-11 {
+    height: 30vh;
+    background-color: rgba(255, 211, 155);
+    position: relative;
+}
+.section-11 .contenar {
+    width: 350px;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+.section-11 img {
+    width: 300px;
+    height: 100px;
+    /* margin: auto; */
+    margin-top:30px;
+    border-radius: 10px;
+}
+.section-11 i {
+    margin-bottom: 0;
+    font-size: 30px;
+    color: #f567a0;
+    transition: .5s;
+    margin-right: 10px;
+}
+.section-11 i:hover {
+    color: #f71b73;
+}
+.section-11 p {
+    font-weight: bolder;
+    margin-top: 5px;
+}

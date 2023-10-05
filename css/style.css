@@ -1,0 +1,512 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+.section-1 {
+    background-size: cover;
+    background-position: center;
+    height: 103vh;
+    margin-bottom: 0;
+    background-image: url(../images/sweater-bobble-hat-near-snowflakes.jpg);
+    background-attachment: fixed;
+}
+.section-1 .over {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 100;   
+    padding-top: 10px;
+}
+
+.logo {
+    width: 150px;
+    height: 30px;
+    margin-left: 70px;
+    float: left;
+    color: #ff0066;
+}
+.ccc {
+    float: left;
+}
+ul {
+    float: right;
+    margin-right: 110px;
+}
+.header li {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+}
+.header li a {
+    color: oldlace;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+    transition: .5s;
+    font-family: 'Work Sans', sans-serif;
+}
+.header li a::after,
+.header li .home::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    display: block;
+    background-color: #f567a0;
+    margin-top: 2px;
+    transition: .5s;
+}
+.header li .home:after {
+    width: 100%;
+}
+.header li a:hover:after {
+    width: 100%;
+}
+.header li a:hover {
+    color: #f567a0;
+    transition-delay: .4s;
+}
+.dd {
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    padding:5px;
+    background-color: #f567a0;
+    color: white;
+    left:65.5%;
+    top: 60px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+    margin-top: -10px;
+}
+.home::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    color: #f567a0;
+    display: block;
+    margin-top: 2px;
+}
+.b-1 {
+    margin-right: 150px;
+}
+.b-1:hover + .dd {
+    visibility: visible;
+    opacity: 1;
+}
+.dd li {
+    text-align: center;
+}
+.section-1 .div-1  {
+    position: absolute;
+    text-align: left;
+    top: 20%;
+    left: 10%;
+    font-size: 30px;
+    padding-left: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color:rgba(255, 215, 163,0.4);
+    background-size:cover ;
+    width: 80%;
+    height: 70%;
+    border-radius: 30px;
+    /* opacity: 0.89; */
+}
+.div-1 h2 i {
+    margin-top: 9px;
+}
+.img-111 {
+    position: absolute;
+    left: 65%;
+    float: right;
+    width: 400px;
+    height: 100%;
+    background-image: url(../images/4432123.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.div-1 span {
+    color: #fff;
+}
+.rara {
+    float: left;
+}
+.div-1 h2 {
+    color: #f567a0;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.div-1 h3 {
+    margin-bottom: 20px;
+    color: oldlace;
+}
+.get {
+    text-decoration: none;
+    background:none ;
+    color: #f567a0;
+    padding: 13px;
+    font-size: 25px;
+    transition: .5s;
+    border-radius: 10px;
+    border:#f567a0 3px solid;
+    padding: 11px;
+}
+.learn {
+    text-decoration: none;
+    background: none;
+    border: oldlace 3px solid;
+    color: oldlace;
+    padding: 10px;
+    font-size: 25px;
+    transition: .5s;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+    padding: 11px;
+}
+.get:hover {
+    background: rgba(245, 103, 160);
+    color: oldlace;
+}
+.learn:hover {
+    border: oldlace 3px solid;
+    color: #f567a0;
+    background: oldlace;
+}
+.section-1 .div-1 p {
+    width: 650px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    color: #444;
+}
+.section-1 .div-1 p::first-letter {
+    font-size: 30px;
+}
+.div-1 a {
+    top: 90%;
+}
+.img-2 {
+    float: right;
+    position: absolute;
+    top: 0;
+    left: 60%;
+    height: 100%;
+    width: 40%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.i-div-1 {
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+    margin-top: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: oldlace;
+    transition: .5s;
+    border-radius: 50%;
+}
+.i-div-1:hover {
+    color: rgb(245, 103, 160);
+}
+.i-div-01 {
+    width: 330px;
+    text-align: center;
+    margin-top: 10px;
+}
+.sh {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 133, 182);
+    transition: .3s;
+}
+.sh:hover {
+    color: rgba(245, 103, 160);
+}
+.section-1-1 {
+    width: 100vw;
+    height: 115vh;
+    background-image: url(../images/clothing-rack-with-floral-hawaiian-shirts-hangers-hat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.section-1-1 .over {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 4;
+}
+.section-1-1 .div-111 {
+    width: 300px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 50px;
+    color: rgb(252, 199, 100);
+    text-transform:uppercase;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Work Sans', sans-serif;
+}
+.section-1-1 .div-111 span {
+    color: #f567a0;
+}
+.section-2 {
+    height: 110vh;
+    text-align: center;
+    padding: 100px;
+    background-size: cover;
+    background-color: rgb(255, 215, 163);
+    position: relative;
+    overflow: hidden;
+}
+.se2-cards {
+    width: 90vh;
+    position: absolute;
+    top: 25vh;
+    left: 16vw;
+    right: 13vw;
+}
+.section-2 h2 {
+    font-size: 40px;
+}
+.section-2 h2 span {
+    font-size: 50px;
+    color: #f567a0;
+}
+.section-2 .hr {
+    background-color: #f567a0;
+    width: 80px;
+    height: 3px;
+    margin: auto;
+    margin-top: 3px;
+}
+.vvv {
+    float: left;
+}
+.v1 {
+    margin-left: 6vh;
+    margin-right: 6vh;
+}
+.se2-cards {
+    overflow: auto;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 0;
+}
+.mtn {
+    float: left;
+    width: 270px;
+    height: 279px;
+    background: none;
+    text-align: center;
+    background: none;
+    border: solid 3px #333;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: .7s;
+    position: relative;
+    z-index: 99;
+    border-radius: 10px;
+}
+.mtn:hover {
+    border: 3px solid #f567a0;
+}
+.mtn:hover h2,span {
+    color: oldlace;
+    transition: .7s;
+} 
+.mtn:hover span {
+    color: oldlace;
+} 
+.mtn h2 {
+    transition: .8s;
+}
+.mtn-1 {
+    text-align: center;
+}
+.mtn i {
+    margin-top: 40px;
+    font-size: 40px;
+    color: #f567a0;
+    transition: .5s;
+}
+.mtn-2 {
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+.mtn h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    transition: .7s;
+}
+.mtn p {
+    margin-top: 20px;
+    color: #444;
+    transition: .5s;
+}
+.mtn p span {
+    color: #000;
+    font-weight: bold;
+    transition: .8s;
+}
+.mtn a {
+    color: #f567a0;
+    text-decoration: none;
+    font-size: 19px;
+    transition: .5s;
+}
+.mtn a:hover {
+    font-size: 20px;
+    border: 2px solid rgb(245, 103, 160);
+    border: none;
+}
+.mtn:before {
+    content: "";
+    background-color: #333; 
+    top:0;
+    left:0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-radius: 8px;
+    transition: .7s;
+}
+.mtn:hover p {
+    color: #d6d6d6;
+}
+.mtn:hover:before {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.section-3 {
+    height: 150vh;
+    background-color: rgb(250, 227, 197);
+    padding-top: 50px;
+}
+.section-3 .cards-1 {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    margin-bottom: 100px;
+}
+.section-3 .cards-1 img {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    margin: 15px;
+}
+.section-3 .cards-1 .card {
+    width: 300px;
+    height: 400px;
+    float: left;
+    transition: .5s;
+    border-radius: 10px;
+    position: relative;
+}
+.c66 {
+    position: absolute;
+    top:0;
+    left:0; 
+    width:100%;
+    height:100%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+    border-radius: 10px;
+    padding-top: 100px;
+}
+.c66 span {
+    color: #f567a0;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 1.4s ,opacity .5s;
+    transition-delay: 0;
+}
+.c66 h3 {
+    color: oldlace;
+    margin-bottom: 10px;
+    position: relative;
+    font-size:25px ;
+    top: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 1.4s ,opacity .5s;
+    transition-delay: .4s;
+}
+.c66 .ic {
+    font-size: 25px;
+}
+.c66 a {
+    display: inline-block;
+    width:40px;
+    height: 40px;
+    background:none;
+    color: #f567a0;
+    position: relative;
+    font-size: 20px;
+    top:20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 1.4s ,opacity .5s;
+    transition-delay: .6s;
+    text-decoration: none;
+}
+.c66 .fa-thumbs-up {
+    margin-bottom: 20px;
+}
+.section-3 .cards-1 .card:hover .c66 {
+    opacity:1;
+    visibility: visible;
+}
+.section-3 .cards-1 .card:hover .c66 span,
+.section-3 .cards-1 .card:hover .c66 h3,
+.section-3 .cards-1 .card:hover .c66 a {
+     top:0;
+   opacity: 1;
+   visibility: visible;
+}
+
+.section-3 .cards-1 .c2 {
+    margin: 0 80px;
+}
+
+.sec-3-img {
+    width: 260px;
+    height: 350px;
+    border-radius:10px;
+    margin: 20px;
+}
+.section-3 .cards-1 .card:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
